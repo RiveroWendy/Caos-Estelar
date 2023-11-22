@@ -55,6 +55,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4376feb3b418d994aa14c42eff84c8d2, type: 3}
   - name: Menu
     clip: {fileID: 8300000, guid: 42c46eddc58423343b507c64efe2cf98, type: 3}
+  - name: Final
+    clip: {fileID: 8300000, guid: 8817918ac1b1f1144b95659a4aa1ce3d, type: 3}
   _sfx:
   - name: Menu
     clip: {fileID: 8300000, guid: 97517a351aae5584d9cddb49112df30c, type: 3}
@@ -114,7 +116,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.254
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -242,7 +244,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.515
   m_Pitch: 1
   Loop: 0
   Mute: 0

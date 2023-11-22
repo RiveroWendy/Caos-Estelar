@@ -33,23 +33,28 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
        string nombreEscenaActiva = SceneManager.GetActiveScene().name;
-       if(nombreEscenaActiva == "Menu" || nombreEscenaActiva=="Final") 
+        if (nombreEscenaActiva == "Menu" || nombreEscenaActiva == "Tutorial")
         {
             PlayMusic("Menu");
             PlaySFX("Menu");
         }
-        else if(nombreEscenaActiva=="Level 1")
+        else if (nombreEscenaActiva == "Level 1")
         {
             PlayMusic("LevelOne");
-           
+
         }
         else if (nombreEscenaActiva == "Level 2")
         {
             PlayMusic("LevelTwo");
 
         }
+        else if (nombreEscenaActiva == "Final")
+        {
+            PlayMusic("Final");
+
+        }
     }
-       
+
     public void PlayMusic(string name)
     {
         Sound s = Array.Find(_music, x => x.name == name);
